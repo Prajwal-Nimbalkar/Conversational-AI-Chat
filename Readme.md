@@ -13,8 +13,8 @@ This is a multi-provider Conversational AI system that integrates with OpenAI (C
 ## Setup Instructions
 
 ### 1. Create a Virtual Environment
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+- python3 -m venv venv
+- source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ### 2. Install Dependencies
 1) pip install -r setup.txt
@@ -22,9 +22,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ### 3. API Key Setup
 Create a .env file or export the following environment variables:
-OPENAI_API_KEY=your-openai-key
-ANTHROPIC_API_KEY=your-claude-key
-GEMINI_API_KEY=your-gemini-key
+- OPENAI_API_KEY=your-openai-key
+- ANTHROPIC_API_KEY=your-claude-key
+- GEMINI_API_KEY=your-gemini-key
 
 ## Running the Project
 ### 1. Start the FastAPI MCP Server
