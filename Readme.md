@@ -17,7 +17,7 @@ python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ### 2. Install Dependencies
-1) pip install -r requirements.txt
+1) pip install -r setup.txt
 2) pip install google-generativeai
 
 ### 3. API Key Setup
